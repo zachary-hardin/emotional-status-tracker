@@ -20,3 +20,5 @@ Then the user is navigated to a results view
 Given the user has selected an answer
 When the is navigated to the results view
 Then the user see a graph displaying his/her emotional status
+
+https://www.emojione.com/emoji/v3
