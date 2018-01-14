@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHv-3e-rjO">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHv-3e-rjO">
                                 <rect key="frame" x="0.0" y="265" width="375" height="282"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ag-jo7">
                                         <rect key="frame" x="0.0" y="0.0" width="1000" height="282"/>
-                                        <color key="backgroundColor" red="0.92005750868055558" green="0.90022786458333337" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.98039215686274506" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1000" id="dft-hF-j6a"/>
                                         </constraints>
@@ -44,6 +44,12 @@
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" id="hgx-a5-hSe"/>
                                 </constraints>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How was your day?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knD-fz-NfC">
+                                <rect key="frame" x="20" y="224.33333333333334" width="335" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
+                                <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -51,6 +57,10 @@
                             <constraint firstItem="VHv-3e-rjO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="L7G-zI-M7w"/>
                             <constraint firstItem="VHv-3e-rjO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NRo-Tp-yHb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VHv-3e-rjO" secondAttribute="trailing" id="Vit-ux-3hC"/>
+                            <constraint firstItem="knD-fz-NfC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="500" constant="20" id="ajS-Rg-5bo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="knD-fz-NfC" secondAttribute="trailing" priority="500" constant="20" id="blt-aC-voa"/>
+                            <constraint firstItem="knD-fz-NfC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cs6-Fy-QRu"/>
+                            <constraint firstItem="VHv-3e-rjO" firstAttribute="top" secondItem="knD-fz-NfC" secondAttribute="bottom" id="qO1-ns-rNM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
