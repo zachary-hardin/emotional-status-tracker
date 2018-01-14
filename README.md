@@ -26,4 +26,5 @@ https://www.emojione.com/emoji/v3
 
 # Helpful Resources:
 **Drop Shadow:** https://medium.com/@martinblampied/ios-drop-shadows-78edd3f241c1
+
 **Scrolling:** https://medium.com/@khoanguyenvan/how-to-use-horizontal-scrollview-in-ios-properly-c6c90452978a
