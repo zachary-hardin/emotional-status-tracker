@@ -28,19 +28,23 @@
                                             <constraint firstAttribute="width" constant="1000" id="dft-hF-j6a"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wh9-55-xlu">
-                                        <rect key="frame" x="164" y="126" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5a-lW-k37">
+                                        <rect key="frame" x="23" y="32.666666666666686" width="230" height="217"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="230" id="aky-1Z-IDC"/>
+                                            <constraint firstAttribute="height" constant="217" id="nOc-qE-n5l"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" id="3Om-B3-mXh"/>
+                                    <constraint firstItem="Z5a-lW-k37" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Ea7-oY-hsz"/>
                                     <constraint firstAttribute="bottom" secondItem="jmD-ag-jo7" secondAttribute="bottom" id="K2Q-uO-9nt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Kks-z8-wRv"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="top" secondItem="VHv-3e-rjO" secondAttribute="top" id="RXf-L8-XcX"/>
-                                    <constraint firstItem="wh9-55-xlu" firstAttribute="centerX" secondItem="VHv-3e-rjO" secondAttribute="centerX" id="TLM-fW-HZb"/>
                                     <constraint firstAttribute="height" constant="282" id="auM-Jq-mDm"/>
-                                    <constraint firstItem="wh9-55-xlu" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="gTK-Vu-BjV"/>
+                                    <constraint firstItem="Z5a-lW-k37" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" constant="23" id="bnS-lL-4QO"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" id="hgx-a5-hSe"/>
                                 </constraints>
                             </scrollView>
