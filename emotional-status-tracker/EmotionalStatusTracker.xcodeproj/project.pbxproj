@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7496C3A01FFB08FF005EA8BD /* emotional-status-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emotional-status-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7496C3A01FFB08FF005EA8BD /* EmotionalStatusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionalStatusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7496C3A31FFB08FF005EA8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7496C3A51FFB08FF005EA8BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7496C3A81FFB08FF005EA8BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		7496C3A11FFB08FF005EA8BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7496C3A01FFB08FF005EA8BD /* emotional-status-tracker.app */,
+				7496C3A01FFB08FF005EA8BD /* EmotionalStatusTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7496C39F1FFB08FF005EA8BD /* emotional-status-tracker */ = {
+		7496C39F1FFB08FF005EA8BD /* EmotionalStatusTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7496C3B21FFB08FF005EA8BD /* Build configuration list for PBXNativeTarget "emotional-status-tracker" */;
+			buildConfigurationList = 7496C3B21FFB08FF005EA8BD /* Build configuration list for PBXNativeTarget "EmotionalStatusTracker" */;
 			buildPhases = (
 				7496C39C1FFB08FF005EA8BD /* Sources */,
 				7496C39D1FFB08FF005EA8BD /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "emotional-status-tracker";
+			name = EmotionalStatusTracker;
 			productName = "emotional-status-tracker";
-			productReference = 7496C3A01FFB08FF005EA8BD /* emotional-status-tracker.app */;
+			productReference = 7496C3A01FFB08FF005EA8BD /* EmotionalStatusTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7496C39B1FFB08FF005EA8BD /* Build configuration list for PBXProject "emotional-status-tracker" */;
+			buildConfigurationList = 7496C39B1FFB08FF005EA8BD /* Build configuration list for PBXProject "EmotionalStatusTracker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7496C39F1FFB08FF005EA8BD /* emotional-status-tracker */,
+				7496C39F1FFB08FF005EA8BD /* EmotionalStatusTracker */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7496C39B1FFB08FF005EA8BD /* Build configuration list for PBXProject "emotional-status-tracker" */ = {
+		7496C39B1FFB08FF005EA8BD /* Build configuration list for PBXProject "EmotionalStatusTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7496C3B01FFB08FF005EA8BD /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7496C3B21FFB08FF005EA8BD /* Build configuration list for PBXNativeTarget "emotional-status-tracker" */ = {
+		7496C3B21FFB08FF005EA8BD /* Build configuration list for PBXNativeTarget "EmotionalStatusTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7496C3B31FFB08FF005EA8BD /* Debug */,
