@@ -17,6 +17,8 @@ xcuserdata/
 *.xccheckout
 *.xcscmblueprint
 *.xcuserstate
+*/UserInterfaceState.xcuserstate
+emotional-status-tracker/EmotionalStatusTracker.xcodeproj/project.xcworkspace/xcuserdata/zacharyhardin.xcuserdatad/UserInterfaceState.xcuserstate
 
 ## Obj-C/Swift specific
 *.hmap
