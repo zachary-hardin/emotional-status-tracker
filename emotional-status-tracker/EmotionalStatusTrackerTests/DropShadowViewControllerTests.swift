@@ -28,4 +28,11 @@ class DropShadowViewControllerTests: XCTestCase {
         
         XCTAssertEqual(controller.layer.shadowRadius, 6)
     }
+    
+    func testAddDropShadow__shouldSetShadowOffsetWidthAndHeight() {
+        controller.layer.shadowOffset = CGSize(width: 0, height: 0)
+        controller.addDropShadow(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowOffset, CGSize(width: 0, height: 1))
+    }
 }
