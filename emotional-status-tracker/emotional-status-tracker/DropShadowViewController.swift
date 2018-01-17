@@ -21,7 +21,7 @@ class DropShadowViewController: UIView {
         addDropShadow(layer: self.layer)
     }
     
-    fileprivate func addDropShadow(layer: CALayer) {
+    func addDropShadow(layer: CALayer) {
         layer.shadowRadius = 6
         layer.shadowOffset = CGSize(width: 0, height: 1)
         layer.shadowOpacity = 0.25

@@ -7,11 +7,15 @@
 //
 
 import XCTest
+@testable import EmotionalStatusTracker
 
 class DropShadowViewControllerTests: XCTestCase {
+    var controller: DropShadowViewController!
     
     override func setUp() {
         super.setUp()
+        
+        controller = DropShadowViewController()
     }
     
     override func tearDown() {
@@ -19,6 +23,9 @@ class DropShadowViewControllerTests: XCTestCase {
     }
     
     func testAddDropShadow__shouldSetShadowRaduisTo6() {
-        XCTAssertEqual(true, true)
+        controller.layer.shadowRadius = 0
+        controller.addDropShadow(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowRadius, 6)
     }
 }
