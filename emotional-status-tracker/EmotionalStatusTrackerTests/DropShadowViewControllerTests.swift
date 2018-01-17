@@ -7,11 +7,15 @@
 //
 
 import XCTest
+@testable import EmotionalStatusTracker
 
 class DropShadowViewControllerTests: XCTestCase {
+    var controller: DropShadowViewController!
     
     override func setUp() {
         super.setUp()
+        
+        controller = DropShadowViewController()
     }
     
     override func tearDown() {
@@ -19,6 +23,30 @@ class DropShadowViewControllerTests: XCTestCase {
     }
     
     func testAddDropShadow__shouldSetShadowRaduisTo6() {
-        XCTAssertEqual(true, true)
+        controller.layer.shadowRadius = 0
+        controller.addDefaultDropShadow(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowRadius, 6)
+    }
+    
+    func testAddDropShadow__shouldSetShadowOffsetWidthAndHeight() {
+        controller.layer.shadowOffset = CGSize(width: 0, height: 0)
+        controller.addDefaultDropShadow(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowOffset, CGSize(width: 0, height: 1))
+    }
+    
+    func testAddDropShadow__shouldSetShadowOpacityToPoint25() {
+        controller.layer.shadowOpacity = 0.0
+        controller.addDefaultDropShadow(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowOpacity, 0.25)
+    }
+    
+    func testAddDropShadow__shouldSetShadowColorToBlack() {
+        controller.layer.shadowColor = UIColor.red.cgColor
+        controller.addDefaultDropShadow(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowColor, UIColor.black.cgColor)
     }
 }

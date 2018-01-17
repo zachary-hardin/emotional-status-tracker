@@ -12,16 +12,16 @@ class DropShadowViewController: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        addDropShadow(layer: self.layer)
+        addDefaultDropShadow(layer: self.layer)
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        addDropShadow(layer: self.layer)
+        addDefaultDropShadow(layer: self.layer)
     }
     
-    fileprivate func addDropShadow(layer: CALayer) {
+    func addDefaultDropShadow(layer: CALayer) {
         layer.shadowRadius = 6
         layer.shadowOffset = CGSize(width: 0, height: 1)
         layer.shadowOpacity = 0.25
