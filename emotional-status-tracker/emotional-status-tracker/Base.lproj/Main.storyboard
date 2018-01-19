@@ -15,17 +15,17 @@
             <objects>
                 <viewController storyboardIdentifier="DropShadowViewController" title="DropShadowViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="EmotionalStatusTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="2000" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1840" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHv-3e-rjO">
-                                <rect key="frame" x="0.0" y="265" width="2000" height="282"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHv-3e-rjO">
+                                <rect key="frame" x="0.0" y="265" width="1840" height="282"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ag-jo7" userLabel="BackGround Scrollable View">
-                                        <rect key="frame" x="0.0" y="0.0" width="1600" height="282"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1640" height="282"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1600" id="dft-hF-j6a"/>
+                                            <constraint firstAttribute="width" constant="1640" id="dft-hF-j6a"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5a-lW-k37" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
@@ -238,14 +238,51 @@
                                             <constraint firstItem="zlj-da-YVS" firstAttribute="centerX" secondItem="OQT-3P-lHK" secondAttribute="centerX" id="xab-Ky-QBb"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuH-1n-UEr" userLabel="Amazing View Controller" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
+                                        <rect key="frame" x="1583" y="32" width="230" height="217"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amazing-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="OwH-fI-woJ">
+                                                <rect key="frame" x="51" y="14" width="128" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="128" id="A8a-Mn-IiE"/>
+                                                    <constraint firstAttribute="height" constant="128" id="fkt-xD-v78"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHP-10-2gZ">
+                                                <rect key="frame" x="58.333333333333258" y="142" width="115" height="33.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Fantastic Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5u-Tb-XJU">
+                                                <rect key="frame" x="43.666666666666742" y="175.66666666666669" width="144.33333333333334" height="26.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="OwH-fI-woJ" firstAttribute="top" secondItem="FuH-1n-UEr" secondAttribute="top" constant="14" id="1JM-m5-WTl"/>
+                                            <constraint firstItem="j5u-Tb-XJU" firstAttribute="top" secondItem="hHP-10-2gZ" secondAttribute="bottom" id="CnH-bj-Rpo"/>
+                                            <constraint firstAttribute="width" constant="230" id="FFQ-M1-Xdg"/>
+                                            <constraint firstItem="OwH-fI-woJ" firstAttribute="centerX" secondItem="FuH-1n-UEr" secondAttribute="centerX" id="Y9m-Tl-V8Z"/>
+                                            <constraint firstItem="j5u-Tb-XJU" firstAttribute="centerX" secondItem="FuH-1n-UEr" secondAttribute="centerX" id="gnx-yI-Zn6"/>
+                                            <constraint firstItem="hHP-10-2gZ" firstAttribute="top" secondItem="OwH-fI-woJ" secondAttribute="bottom" id="i2h-wP-ogv"/>
+                                            <constraint firstAttribute="height" constant="217" id="ldw-GR-4Hw"/>
+                                            <constraint firstItem="hHP-10-2gZ" firstAttribute="centerX" secondItem="FuH-1n-UEr" secondAttribute="centerX" id="lin-Z4-4GC"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" constant="400" id="3Om-B3-mXh"/>
+                                    <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" constant="200" id="3Om-B3-mXh"/>
                                     <constraint firstItem="GtB-8e-fGl" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="9Tq-gx-Rin"/>
                                     <constraint firstItem="o4b-eH-jKm" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="9af-9C-xFZ"/>
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Ea7-oY-hsz"/>
+                                    <constraint firstItem="FuH-1n-UEr" firstAttribute="leading" secondItem="OQT-3P-lHK" secondAttribute="trailing" constant="30" id="Fpy-QP-kib"/>
                                     <constraint firstAttribute="bottom" secondItem="jmD-ag-jo7" secondAttribute="bottom" id="K2Q-uO-9nt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Kks-z8-wRv"/>
+                                    <constraint firstItem="FuH-1n-UEr" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="LJ5-QW-sBr"/>
                                     <constraint firstItem="N9B-lr-v4K" firstAttribute="leading" secondItem="2O6-LJ-8eN" secondAttribute="trailing" constant="30" id="OdN-Zr-PsB"/>
                                     <constraint firstItem="o4b-eH-jKm" firstAttribute="leading" secondItem="GtB-8e-fGl" secondAttribute="trailing" constant="30" id="PSx-QY-Mdc"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="top" secondItem="VHv-3e-rjO" secondAttribute="top" id="RXf-L8-XcX"/>
@@ -261,7 +298,7 @@
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How was your day?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knD-fz-NfC">
-                                <rect key="frame" x="20" y="224.33333333333334" width="1960" height="40.666666666666657"/>
+                                <rect key="frame" x="20" y="224.33333333333334" width="1800" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
                                 <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -280,7 +317,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <size key="freeformSize" width="2000" height="812"/>
+                    <size key="freeformSize" width="1840" height="812"/>
                     <connections>
                         <outlet property="stressedViewContainer" destination="Z5a-lW-k37" id="wJ9-vp-VqF"/>
                     </connections>
@@ -291,6 +328,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="amazing-emoji" width="64" height="64"/>
         <image name="depressed-emoji" width="64" height="64"/>
         <image name="frustrated-emoji" width="64" height="64"/>
         <image name="happy-emoji" width="64" height="64"/>
