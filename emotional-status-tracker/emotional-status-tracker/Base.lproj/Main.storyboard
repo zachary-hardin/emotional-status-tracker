@@ -15,17 +15,17 @@
             <objects>
                 <viewController storyboardIdentifier="DropShadowViewController" title="DropShadowViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="EmotionalStatusTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="2000" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VHv-3e-rjO">
-                                <rect key="frame" x="0.0" y="265" width="1000" height="282"/>
+                                <rect key="frame" x="0.0" y="265" width="2000" height="282"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ag-jo7">
-                                        <rect key="frame" x="0.0" y="0.0" width="1000" height="282"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ag-jo7" userLabel="BackGround Scrollable View">
+                                        <rect key="frame" x="0.0" y="0.0" width="1200" height="282"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1000" id="dft-hF-j6a"/>
+                                            <constraint firstAttribute="width" constant="1200" id="dft-hF-j6a"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5a-lW-k37" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
@@ -187,7 +187,7 @@
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How was your day?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knD-fz-NfC">
-                                <rect key="frame" x="20" y="224.33333333333334" width="960" height="40.666666666666657"/>
+                                <rect key="frame" x="20" y="224.33333333333334" width="1960" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="34"/>
                                 <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -206,7 +206,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <size key="freeformSize" width="1000" height="812"/>
+                    <size key="freeformSize" width="2000" height="812"/>
                     <connections>
                         <outlet property="stressedViewContainer" destination="Z5a-lW-k37" id="wJ9-vp-VqF"/>
                     </connections>

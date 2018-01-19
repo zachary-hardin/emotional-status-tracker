@@ -24,6 +24,9 @@ Then the user see a graph displaying his/her emotional status
 https://www.emojione.com/emoji/v3
 
 
+Notes:
+To increase the horizontal scroll width on the first view, adjust the `BackGround Scrollable View`'s width.
+
 # Helpful Resources:
 **Drop Shadow:** https://medium.com/@martinblampied/ios-drop-shadows-78edd3f241c1
 
