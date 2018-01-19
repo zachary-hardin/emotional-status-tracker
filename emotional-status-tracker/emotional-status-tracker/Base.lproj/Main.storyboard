@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="265" width="2000" height="282"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ag-jo7" userLabel="BackGround Scrollable View">
-                                        <rect key="frame" x="0.0" y="0.0" width="1200" height="282"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1350" height="282"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1200" id="dft-hF-j6a"/>
+                                            <constraint firstAttribute="width" constant="1350" id="dft-hF-j6a"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5a-lW-k37" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
@@ -168,14 +168,51 @@
                                             <constraint firstItem="XxB-ux-05J" firstAttribute="top" secondItem="tIu-6x-Ubo" secondAttribute="bottom" id="ryp-mW-jBv"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o4b-eH-jKm" userLabel="Average View Controller" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
+                                        <rect key="frame" x="1063" y="32" width="230" height="217"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="normal-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="e5K-sb-CLE">
+                                                <rect key="frame" x="51" y="14" width="128" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="TUK-A3-lVS"/>
+                                                    <constraint firstAttribute="width" constant="128" id="xRS-V6-DEb"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3g5-nk-OHw">
+                                                <rect key="frame" x="68.333333333333258" y="142" width="94.666666666666686" height="33.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An Average Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZqM-yB-9JM">
+                                                <rect key="frame" x="41.333333333333258" y="175.66666666666669" width="148.66666666666666" height="26.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="217" id="6X9-yG-WXR"/>
+                                            <constraint firstAttribute="width" constant="230" id="BmQ-ZN-koc"/>
+                                            <constraint firstItem="e5K-sb-CLE" firstAttribute="top" secondItem="o4b-eH-jKm" secondAttribute="top" constant="14" id="IMd-gx-2lK"/>
+                                            <constraint firstItem="ZqM-yB-9JM" firstAttribute="top" secondItem="3g5-nk-OHw" secondAttribute="bottom" id="Mea-Tk-3vu"/>
+                                            <constraint firstItem="3g5-nk-OHw" firstAttribute="centerX" secondItem="o4b-eH-jKm" secondAttribute="centerX" id="WQf-Os-eLm"/>
+                                            <constraint firstItem="3g5-nk-OHw" firstAttribute="top" secondItem="e5K-sb-CLE" secondAttribute="bottom" id="Y5U-rO-HZU"/>
+                                            <constraint firstItem="ZqM-yB-9JM" firstAttribute="centerX" secondItem="o4b-eH-jKm" secondAttribute="centerX" id="auq-zM-o9U"/>
+                                            <constraint firstItem="e5K-sb-CLE" firstAttribute="centerX" secondItem="o4b-eH-jKm" secondAttribute="centerX" id="lvI-DW-hvc"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" id="3Om-B3-mXh"/>
                                     <constraint firstItem="GtB-8e-fGl" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="9Tq-gx-Rin"/>
+                                    <constraint firstItem="o4b-eH-jKm" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="9af-9C-xFZ"/>
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Ea7-oY-hsz"/>
                                     <constraint firstAttribute="bottom" secondItem="jmD-ag-jo7" secondAttribute="bottom" id="K2Q-uO-9nt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Kks-z8-wRv"/>
                                     <constraint firstItem="N9B-lr-v4K" firstAttribute="leading" secondItem="2O6-LJ-8eN" secondAttribute="trailing" constant="30" id="OdN-Zr-PsB"/>
+                                    <constraint firstItem="o4b-eH-jKm" firstAttribute="leading" secondItem="GtB-8e-fGl" secondAttribute="trailing" constant="30" id="PSx-QY-Mdc"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="top" secondItem="VHv-3e-rjO" secondAttribute="top" id="RXf-L8-XcX"/>
                                     <constraint firstItem="GtB-8e-fGl" firstAttribute="leading" secondItem="N9B-lr-v4K" secondAttribute="trailing" constant="30" id="Soj-mf-B0g"/>
                                     <constraint firstAttribute="height" constant="282" id="auM-Jq-mDm"/>
@@ -219,6 +256,7 @@
     <resources>
         <image name="depressed-emoji" width="64" height="64"/>
         <image name="frustrated-emoji" width="64" height="64"/>
+        <image name="normal-emoji" width="64" height="64"/>
         <image name="stressed-emoji" width="64" height="64"/>
         <image name="tired-emoji" width="64" height="64"/>
     </resources>
