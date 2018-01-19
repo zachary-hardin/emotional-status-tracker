@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="265" width="2000" height="282"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-ag-jo7" userLabel="BackGround Scrollable View">
-                                        <rect key="frame" x="0.0" y="0.0" width="1350" height="282"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1600" height="282"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1350" id="dft-hF-j6a"/>
+                                            <constraint firstAttribute="width" constant="1600" id="dft-hF-j6a"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5a-lW-k37" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
@@ -203,9 +203,44 @@
                                             <constraint firstItem="e5K-sb-CLE" firstAttribute="centerX" secondItem="o4b-eH-jKm" secondAttribute="centerX" id="lvI-DW-hvc"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQT-3P-lHK" userLabel="Happy View Controller" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
+                                        <rect key="frame" x="1323" y="32" width="230" height="217"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="kDP-3Y-SfT">
+                                                <rect key="frame" x="51" y="14" width="128" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="cSY-Iy-IoY"/>
+                                                    <constraint firstAttribute="width" constant="128" id="exI-ef-ke6"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Really Good" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlj-da-YVS">
+                                                <rect key="frame" x="37.666666666666742" y="142" width="156" height="33.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Happy Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qET-4i-agr">
+                                                <rect key="frame" x="54.999999999999993" y="175.66666666666669" width="121.33333333333331" height="26.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="qET-4i-agr" firstAttribute="centerX" secondItem="OQT-3P-lHK" secondAttribute="centerX" id="4zS-qf-pX3"/>
+                                            <constraint firstItem="kDP-3Y-SfT" firstAttribute="centerX" secondItem="OQT-3P-lHK" secondAttribute="centerX" id="A79-XF-awX"/>
+                                            <constraint firstAttribute="height" constant="217" id="C8f-du-exV"/>
+                                            <constraint firstItem="qET-4i-agr" firstAttribute="top" secondItem="zlj-da-YVS" secondAttribute="bottom" id="Lh6-r8-QRl"/>
+                                            <constraint firstItem="zlj-da-YVS" firstAttribute="top" secondItem="kDP-3Y-SfT" secondAttribute="bottom" id="d3c-yT-MOc"/>
+                                            <constraint firstAttribute="width" constant="230" id="fwd-xf-5lH"/>
+                                            <constraint firstItem="kDP-3Y-SfT" firstAttribute="top" secondItem="OQT-3P-lHK" secondAttribute="top" constant="14" id="grF-DD-ld9"/>
+                                            <constraint firstItem="zlj-da-YVS" firstAttribute="centerX" secondItem="OQT-3P-lHK" secondAttribute="centerX" id="xab-Ky-QBb"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" id="3Om-B3-mXh"/>
+                                    <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" constant="400" id="3Om-B3-mXh"/>
                                     <constraint firstItem="GtB-8e-fGl" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="9Tq-gx-Rin"/>
                                     <constraint firstItem="o4b-eH-jKm" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="9af-9C-xFZ"/>
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Ea7-oY-hsz"/>
@@ -219,6 +254,8 @@
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" constant="23" id="bnS-lL-4QO"/>
                                     <constraint firstItem="2O6-LJ-8eN" firstAttribute="leading" secondItem="Z5a-lW-k37" secondAttribute="trailing" constant="30" id="hdp-ms-gpt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" id="hgx-a5-hSe"/>
+                                    <constraint firstItem="OQT-3P-lHK" firstAttribute="leading" secondItem="o4b-eH-jKm" secondAttribute="trailing" constant="30" id="jyo-fz-pha"/>
+                                    <constraint firstItem="OQT-3P-lHK" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="qAD-yk-ruP"/>
                                     <constraint firstItem="N9B-lr-v4K" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="yw1-Hq-gwV"/>
                                     <constraint firstItem="2O6-LJ-8eN" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="zeD-45-c9a"/>
                                 </constraints>
@@ -256,6 +293,7 @@
     <resources>
         <image name="depressed-emoji" width="64" height="64"/>
         <image name="frustrated-emoji" width="64" height="64"/>
+        <image name="happy-emoji" width="64" height="64"/>
         <image name="normal-emoji" width="64" height="64"/>
         <image name="stressed-emoji" width="64" height="64"/>
         <image name="tired-emoji" width="64" height="64"/>
