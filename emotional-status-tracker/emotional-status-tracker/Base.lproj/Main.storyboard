@@ -63,8 +63,8 @@
                                             <constraint firstItem="CWc-g9-BJc" firstAttribute="top" secondItem="lIv-lh-uIO" secondAttribute="bottom" id="zuR-J1-Prm"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-LJ-8eN" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
-                                        <rect key="frame" x="273" y="32" width="230" height="217"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-LJ-8eN" userLabel="Frustrated View Controller" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
+                                        <rect key="frame" x="283" y="32" width="230" height="217"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frustrated-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="Vhm-aH-K76">
                                                 <rect key="frame" x="51" y="14" width="128" height="128"/>
@@ -107,7 +107,7 @@
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="top" secondItem="VHv-3e-rjO" secondAttribute="top" id="RXf-L8-XcX"/>
                                     <constraint firstAttribute="height" constant="282" id="auM-Jq-mDm"/>
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" constant="23" id="bnS-lL-4QO"/>
-                                    <constraint firstItem="2O6-LJ-8eN" firstAttribute="leading" secondItem="Z5a-lW-k37" secondAttribute="trailing" constant="20" id="hdp-ms-gpt"/>
+                                    <constraint firstItem="2O6-LJ-8eN" firstAttribute="leading" secondItem="Z5a-lW-k37" secondAttribute="trailing" constant="30" id="hdp-ms-gpt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" id="hgx-a5-hSe"/>
                                     <constraint firstItem="2O6-LJ-8eN" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="zeD-45-c9a"/>
                                 </constraints>
