@@ -98,17 +98,54 @@
                                             <constraint firstItem="2Br-Lw-Vsx" firstAttribute="centerX" secondItem="2O6-LJ-8eN" secondAttribute="centerX" id="c8l-sI-gXc"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N9B-lr-v4K" userLabel="Depressed View Controller" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
+                                        <rect key="frame" x="543" y="32" width="230" height="217"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="depressed-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="agX-aG-0Pf">
+                                                <rect key="frame" x="51" y="14" width="128" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="128" id="Cdh-O9-djz"/>
+                                                    <constraint firstAttribute="height" constant="128" id="iff-OB-xDX"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Depressed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4l-oG-Xgq">
+                                                <rect key="frame" x="44.666666666666629" y="142" width="141.33333333333334" height="33.666666666666657"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Sad Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLU-Cx-Kzq">
+                                                <rect key="frame" x="67" y="175.66666666666669" width="97" height="26.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="230" id="1Av-5k-ze2"/>
+                                            <constraint firstAttribute="height" constant="217" id="4yv-nv-wBX"/>
+                                            <constraint firstItem="WLU-Cx-Kzq" firstAttribute="centerX" secondItem="N9B-lr-v4K" secondAttribute="centerX" id="BAK-QR-Tlt"/>
+                                            <constraint firstItem="agX-aG-0Pf" firstAttribute="top" secondItem="N9B-lr-v4K" secondAttribute="top" constant="14" id="RTi-wV-Gjm"/>
+                                            <constraint firstItem="g4l-oG-Xgq" firstAttribute="centerX" secondItem="N9B-lr-v4K" secondAttribute="centerX" id="Ryj-cp-wKK"/>
+                                            <constraint firstItem="g4l-oG-Xgq" firstAttribute="top" secondItem="agX-aG-0Pf" secondAttribute="bottom" id="TTo-aO-KBP"/>
+                                            <constraint firstItem="WLU-Cx-Kzq" firstAttribute="top" secondItem="g4l-oG-Xgq" secondAttribute="bottom" id="iUn-ZE-iUw"/>
+                                            <constraint firstItem="agX-aG-0Pf" firstAttribute="centerX" secondItem="N9B-lr-v4K" secondAttribute="centerX" id="jjn-6s-AzO"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="jmD-ag-jo7" secondAttribute="trailing" id="3Om-B3-mXh"/>
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Ea7-oY-hsz"/>
                                     <constraint firstAttribute="bottom" secondItem="jmD-ag-jo7" secondAttribute="bottom" id="K2Q-uO-9nt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="Kks-z8-wRv"/>
+                                    <constraint firstItem="N9B-lr-v4K" firstAttribute="leading" secondItem="2O6-LJ-8eN" secondAttribute="trailing" constant="30" id="OdN-Zr-PsB"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="top" secondItem="VHv-3e-rjO" secondAttribute="top" id="RXf-L8-XcX"/>
                                     <constraint firstAttribute="height" constant="282" id="auM-Jq-mDm"/>
                                     <constraint firstItem="Z5a-lW-k37" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" constant="23" id="bnS-lL-4QO"/>
                                     <constraint firstItem="2O6-LJ-8eN" firstAttribute="leading" secondItem="Z5a-lW-k37" secondAttribute="trailing" constant="30" id="hdp-ms-gpt"/>
                                     <constraint firstItem="jmD-ag-jo7" firstAttribute="leading" secondItem="VHv-3e-rjO" secondAttribute="leading" id="hgx-a5-hSe"/>
+                                    <constraint firstItem="N9B-lr-v4K" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="yw1-Hq-gwV"/>
                                     <constraint firstItem="2O6-LJ-8eN" firstAttribute="centerY" secondItem="VHv-3e-rjO" secondAttribute="centerY" id="zeD-45-c9a"/>
                                 </constraints>
                             </scrollView>
@@ -142,6 +179,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="depressed-emoji" width="64" height="64"/>
         <image name="frustrated-emoji" width="64" height="64"/>
         <image name="stressed-emoji" width="64" height="64"/>
     </resources>
