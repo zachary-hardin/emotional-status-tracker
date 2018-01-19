@@ -66,7 +66,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-LJ-8eN" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
                                         <rect key="frame" x="273" y="32" width="230" height="217"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stressed-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="Vhm-aH-K76">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frustrated-emoji" translatesAutoresizingMaskIntoConstraints="NO" id="Vhm-aH-K76">
                                                 <rect key="frame" x="51" y="14" width="128" height="128"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="128" id="Bpj-kJ-e3J"/>
@@ -142,6 +142,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="frustrated-emoji" width="64" height="64"/>
         <image name="stressed-emoji" width="64" height="64"/>
     </resources>
 </document>
