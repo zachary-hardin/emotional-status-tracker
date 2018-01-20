@@ -322,6 +322,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <size key="freeformSize" width="1840" height="812"/>
+                    <connections>
+                        <outlet property="stressedEmotionView" destination="Z5a-lW-k37" id="XIz-o2-9Sf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="HO2-ph-Jm3">

@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var stressedEmotionView: DropShadowViewController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -18,6 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func stressedEmotionTapped(_ sender: Any) {
-        print("1,2,3,GOOO!!!")
+        let dropShadowController = DropShadowViewController()
+        dropShadowController.setDropShadowToGreen(layer: stressedEmotionView.layer)
     }
 }
