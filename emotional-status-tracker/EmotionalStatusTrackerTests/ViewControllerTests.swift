@@ -21,4 +21,13 @@ class ViewControllerTests: XCTestCase {
     override func tearDown() {
         super.tearDown()
     }
+    
+//    func testHandleTap__shouldSetShadowColor() {
+//        print(controller.stressedEmotionView.layer.shadowColor?)
+////        controller.handleTap(viewContainer: controller.stressedEmotionView)
+////
+////        XCTAssertEqual(controller.stressedEmotionView.layer.shadowColor, UIColor.green.cgColor)
+//        
+//        XCTAssertEqual(true, true)
+//    }
 }

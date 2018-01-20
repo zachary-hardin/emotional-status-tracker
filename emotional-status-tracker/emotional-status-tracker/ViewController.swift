@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    func handleTap(viewContainer: DropShadowViewController) {
+        print("here")
+    }
+    
     @IBAction func stressedEmotionTapped(_ sender: Any) {
         let dropShadowController = DropShadowViewController()
         dropShadowController.setDropShadowToGreen(layer: stressedEmotionView.layer)
