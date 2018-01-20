@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func handleTap(_ sender: Any) {
-        print("tap")
+    @IBAction func stressedEmotionTapped(_ sender: Any) {
+        print("1,2,3,GOOO!!!")
     }
 }

@@ -64,7 +64,7 @@
                                             <constraint firstItem="CWc-g9-BJc" firstAttribute="top" secondItem="lIv-lh-uIO" secondAttribute="bottom" id="zuR-J1-Prm"/>
                                         </constraints>
                                         <connections>
-                                            <outletCollection property="gestureRecognizers" destination="hAY-VQ-iSG" appends="YES" id="HZC-xO-lph"/>
+                                            <outletCollection property="gestureRecognizers" destination="HO2-ph-Jm3" appends="YES" id="wHS-t8-a1c"/>
                                         </connections>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-LJ-8eN" userLabel="Frustrated View Controller" customClass="DropShadowViewController" customModule="EmotionalStatusTracker" customModuleProvider="target">
@@ -324,9 +324,9 @@
                     <size key="freeformSize" width="1840" height="812"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="hAY-VQ-iSG">
+                <tapGestureRecognizer id="HO2-ph-Jm3">
                     <connections>
-                        <action selector="handleTap:" destination="BYZ-38-t0r" id="C4r-H7-2bb"/>
+                        <action selector="stressedEmotionTapped:" destination="BYZ-38-t0r" id="oHQ-4b-kdt"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

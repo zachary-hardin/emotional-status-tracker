@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		74066367200D8C7B009F058A /* EmotionalStatusTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74066366200D8C7B009F058A /* EmotionalStatusTrackerTests.swift */; };
 		7406636F200D8CAB009F058A /* DropShadowViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406636E200D8CAB009F058A /* DropShadowViewControllerTests.swift */; };
+		742DC53C2012B95900EDC745 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DC53B2012B95900EDC745 /* ViewControllerTests.swift */; };
 		7496C3A41FFB08FF005EA8BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496C3A31FFB08FF005EA8BD /* AppDelegate.swift */; };
 		7496C3A61FFB08FF005EA8BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7496C3A51FFB08FF005EA8BD /* ViewController.swift */; };
 		7496C3A91FFB08FF005EA8BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7496C3A71FFB08FF005EA8BD /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		74066366200D8C7B009F058A /* EmotionalStatusTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalStatusTrackerTests.swift; sourceTree = "<group>"; };
 		74066368200D8C7B009F058A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7406636E200D8CAB009F058A /* DropShadowViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowViewControllerTests.swift; sourceTree = "<group>"; };
+		742DC53B2012B95900EDC745 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		7496C3A01FFB08FF005EA8BD /* EmotionalStatusTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionalStatusTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7496C3A31FFB08FF005EA8BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7496C3A51FFB08FF005EA8BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				74066366200D8C7B009F058A /* EmotionalStatusTrackerTests.swift */,
 				74066368200D8C7B009F058A /* Info.plist */,
 				7406636E200D8CAB009F058A /* DropShadowViewControllerTests.swift */,
+				742DC53B2012B95900EDC745 /* ViewControllerTests.swift */,
 			);
 			path = EmotionalStatusTrackerTests;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742DC53C2012B95900EDC745 /* ViewControllerTests.swift in Sources */,
 				74066367200D8C7B009F058A /* EmotionalStatusTrackerTests.swift in Sources */,
 				7406636F200D8CAB009F058A /* DropShadowViewControllerTests.swift in Sources */,
 			);

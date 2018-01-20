@@ -27,4 +27,9 @@ class DropShadowViewController: UIView {
         layer.shadowOpacity = 0.25
         layer.shadowColor = UIColor.black.cgColor
     }
+    
+    func setDropShadowToGreen(layer: CALayer) {
+        layer.shadowColor = UIColor.green.cgColor
+        layer.shadowOpacity = 0.75
+    }
 }

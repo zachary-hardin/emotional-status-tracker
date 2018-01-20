@@ -49,4 +49,18 @@ class DropShadowViewControllerTests: XCTestCase {
         
         XCTAssertEqual(controller.layer.shadowColor, UIColor.black.cgColor)
     }
+    
+    func testSetDropShadowToGreen__shouldSetShadowColorToGreen() {
+        controller.layer.shadowColor = UIColor.red.cgColor
+        controller.setDropShadowToGreen(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowColor, UIColor.green.cgColor)
+    }
+    
+    func testSetDropShadowToGreen__shouldSetShadowOpacityToPoint75() {
+        controller.layer.shadowOpacity = 0.0
+        controller.setDropShadowToGreen(layer: controller.layer)
+        
+        XCTAssertEqual(controller.layer.shadowOpacity, 0.75)
+    }
 }
